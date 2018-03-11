@@ -10,15 +10,11 @@ body {
 }
 
 .content { /* text */
-
   width: 90%;
-
 }
 
 div {
-  padding: 1%;
-  border: 2px;
-  margin: 2%;
+  
 }
 
 h1 {
@@ -33,15 +29,13 @@ h3 {
 
 .arrow {
   float: right;
-
   width: 10%;
-
 }
 
 .container {
   margin: 0 auto;
   width: 420px;
-  background-color: #000000;
+
 }
 
 nav {
@@ -49,18 +43,16 @@ nav {
   margin: 0 auto;
   padding: 0 0 10px 15px;
   position: fixed;
-  width: 407px;
+  width: 420px;
 }
 
 .restaurant-list { /* background */
-  box-sizing: border-box;
-  padding-top: 10%;
-  padding-bottom: 5%
-  border: 4px;
-  width: 100%;
+
+  padding-top: 40px;
+
 }
 
-.location { /* parent div */
+.location { /* parent div of content */
   background-color: #D8D8D8;
   padding: 20px;
   border-bottom: 1px solid #979797;
