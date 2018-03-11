@@ -10,12 +10,9 @@ body {
 }
 
 .content { /* text */
-  padding-right: 6%;
-  width: 90%;
-  border: 2px solid #979797;
-  margin: 2%;
 
-  display: inline-block;
+  width: 90%;
+
 }
 
 div {
@@ -36,9 +33,9 @@ h3 {
 
 .arrow {
   float: right;
-  border: 2px;
+
   width: 10%;
-  display: inline-block;
+
 }
 
 .container {
@@ -48,20 +45,28 @@ h3 {
 }
 
 nav {
+  background-color: #000000;
   margin: 0 auto;
-  padding: 10px 0 15px 15px;
+  padding: 0 0 10px 15px;
   position: fixed;
-  width: 420px;
+  width: 407px;
 }
 
-.restaurant-list {
+.restaurant-list { /* background */
   box-sizing: border-box;
-  background-color: #D8D8D8;
-  padding: 10%;
+  padding-top: 10%;
+  padding-bottom: 5%
   border: 4px;
   width: 100%;
 }
 
+.location { /* parent div */
+  background-color: #D8D8D8;
+  padding: 20px;
+  border-bottom: 1px solid #979797;
+  width: 100%;
+  float: left;
+}
 .location :hover {
   background-color: #979797;
 }
